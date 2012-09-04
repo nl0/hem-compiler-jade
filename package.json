@@ -1,11 +1,17 @@
 {
 	"name": "hem-compiler-jade",
+	"version": "0.1.2",
 	"description": "jade support for hem",
-	"version": "0.1.1",
+	"keywords": ["jade", "hem", "template"],
 	"main": "index.js",
-	"license": "BSD",
+	"repository": {
+		"type": "git",
+		"url" : "http://github.com/nl0/hem-compiler-jade.git"
+	},
 	"dependencies": {
 		"jade": "0.27"
-	}
+	},
+	"author": "nl_0 <nl.imbecile@gmail.com> (https://github.com/nl0)",
+	"license": "BSD"
 }
 
