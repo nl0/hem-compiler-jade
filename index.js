@@ -1,5 +1,5 @@
 exports.compile = function(path) {
-	return "var jade = require('hem-compiler-jade/runtime'); module.exports = "+
+	return "var jade = require('hem-compiler-jade/node_modules/jade/lib/runtime'); module.exports = "+
 	require('jade').compile(
 		require('fs').readFileSync(path, 'utf8'),
 		{
