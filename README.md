@@ -11,8 +11,9 @@ It is currently usable only with [this patch](https://github.com/maccman/hem/pul
 1. Install it with `npm install hem-compiler-jade` (and add it to the
    `package.json` if using one).
 
-2. Add `"hem-compiler-jade/node_modules/jade/lib/runtime"` to the
-   `dependencies` section of your `slug.json`.
+2. Add `"node_modules/hem-compiler-jade/node_modules/jade/runtime.js"`
+   (or simply `"node_modules/jade/runtime.js"` if jade is in your `package.json`)
+   to the `libs` section of your `slug.json`.
 
 3. Add `"jade": "hem-compiler-jade"` to the `compilers` section of your
    `slug.json`.
